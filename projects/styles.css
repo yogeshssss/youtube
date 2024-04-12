@@ -1,0 +1,55 @@
+/* styles.css */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Customize the calculator appearance */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(12.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the display screen */
+.screen {
+    background-color: #f3ee9a;
+    border: 1px solid #110f0f;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+/* Arrange buttons in a grid */
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Style calculator buttons */
+.button {
+    background-color: #eff4f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+h1{
+   
+    position: absolute;
+    top: 30px;
+}
